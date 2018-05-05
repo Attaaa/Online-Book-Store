@@ -17,6 +17,12 @@
             object-fit: cover;
             filter: grayscale(50%);
         }
+        .icon-search{
+            position: absolute;
+            right: 2%;
+            top: 30%;
+            color: gray;
+        }
     </style>
 
 </head>
@@ -63,8 +69,9 @@
     <!-- promo list -->
     <div class="container pt-4">
         <div class="row justify-content-center">
-            <div class="col-6">
+            <div class="col-6 position-relative p-0">
                 <input type="search" name="search_promo" class="form-control" placeholder="Search Promo . . .">
+                <i class="fas fa-search icon-search"></i>
             </div>
         </div>
 
@@ -83,7 +90,7 @@
                                 <p class="mb-0">Valid Period</p>
                                 <p class="mb-0"><small>16 Feb 18 - 06 Mei 18</small></p>
                             </div>
-                            <div class="col text-right">
+                            <div class="col text-right align-items-center d-flex">
                                 <a href="" class="btn btn-info ml-auto">See Promo</a>
                             </div>
                         </div>
