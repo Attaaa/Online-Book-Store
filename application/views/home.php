@@ -39,7 +39,7 @@
 <body>
 
     <!-- main navigation -->
-    <nav class="navbar navbar-dark bg-dark navbar-expand-md py-3 justify-content-sm-start justify-content-center"">
+    <nav class="navbar navbar-dark bg-dark navbar-expand-md py-3 justify-content-sm-start justify-content-center">
         <a href="" class="navbar-brand mr-4">
             <img src="<?php echo base_url('assets/images/book.png'); ?>" alt="book" width="30">
             Book Publisher

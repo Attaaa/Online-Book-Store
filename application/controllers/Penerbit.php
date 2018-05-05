@@ -6,4 +6,8 @@ class Penerbit extends CI_Controller{
         $this->load->view('home');
     }
 
+    function register(){
+        $this->load->view('signup');
+    }
+
 }
