@@ -10,4 +10,8 @@ class Penerbit extends CI_Controller{
         $this->load->view('signup');
     }
 
+    function promo(){
+        $this->load->view('promo');
+    }
+
 }

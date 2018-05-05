@@ -16,10 +16,11 @@
     
     <div class="container pt-4 px-2">
         <h1 class="text-center mb-5"><img src="<?php echo base_url('assets/images/book.png'); ?>" alt="book" width="50"> Book Publisher</h1>
-        <h4 class="text-center mb-5">Register</h4>
+        <h4 class="text-center mb-4">Register</h4>
         
         <div class="row justify-content-center">
             <div class="col-5">
+
                 <form class="px-5" action="">
                     <input type="text" name="fullname" class="form-control mb-4 py-2" placeholder="Full Name">
                     <input type="email" name="email" class="form-control mb-4 py-2" placeholder="Email">
@@ -36,6 +37,7 @@
                     <p class="text-center" >By clicking register, you accepted the <a href="" class="text-info">Terms of Use</a> and <a href="" class="text-info">Privacy Policy</a> from Book Publisher</p>
                     <button type="submit" class="btn btn-info w-100">Register</button>
                 </form>
+
             </div>
         </div>
     </div>
@@ -46,3 +48,5 @@
     <script src="<?php echo base_url(); ?>assets/js/bootstrap.min.js"></script>
 
 </body>
+
+</html>
