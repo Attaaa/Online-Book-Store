@@ -14,4 +14,8 @@ class Penerbit extends CI_Controller{
         $this->load->view('promo');
     }
 
+    function featured(){
+        $this->load->view('featured');
+    }
+
 }

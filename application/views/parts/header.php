@@ -31,7 +31,7 @@
             <a href="<?php echo base_url('penerbit/promo'); ?>" class="nav-link text-light">Promo</a>
         </li>
         <li class="nav-item">
-            <a href="" class="nav-link text-light">Featured</a>
+            <a href="<?php echo base_url('penerbit/featured'); ?>" class="nav-link text-light">Featured</a>
         </li>
         <li class="nav-item">
             <a href="" class="nav-link text-light">Pricing</a>
