@@ -6,4 +6,8 @@ class Admin extends CI_Controller{
         $this->load->view('admin/login');
     }
 
+    function panel(){
+        $this->load->view('admin/panel');
+    }
+
 }

@@ -44,7 +44,7 @@
         </div>
 
         <div class="col text-right px-4">
-            <h1 class="mb-5 pb-5">Best Sellers</h1>
+            <h1 class="mb-5 pt-5 pb-4">Best Sellers</h1>
             <p class="lead pt-5">We sell the best products to our customers</p>
             <p>Our Book is the best book products over the best book producs, just buy now and get the benefits.</p>
             <p class="lead pt-5">
