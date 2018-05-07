@@ -15,7 +15,7 @@ class Admin extends CI_Controller{
     }
 
     function editor(){
-        
+        $this->load->view('admin/editor');
     }
 
 }
