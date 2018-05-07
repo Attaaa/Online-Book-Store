@@ -26,4 +26,8 @@ class Admin extends CI_Controller{
         $this->load->view('admin/insert_book');
     }
 
+    function edit_book(){
+        $this->load->view('admin/edit_book');
+    }
+
 }
