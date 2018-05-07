@@ -48,30 +48,29 @@
 
         <!-- main view -->
         <div class="col pt-5 px-5">
-            <h1 class="mb-5 text-center">Editor Panel</h1>
-            <h5 class="mb-4">Edit</h5>
-            <form>
-                <div class="form-group row">
-                    <label for="nama" class="col-sm-2 col-form-label">Writer Name</label>
-                    <div class="col-sm-10">
-                        <input type="text" readonly class="form-control-plaintext" id="nama" value="Muhammad Hatta Eka Putra">
-                    </div>
+            <h1 class="mb-5 text-center">Insert Book</h1>
+            <form action="" class="px-5">
+                <div class="form-group">
+                    <label for="name">Book Title</label>
+                    <input type="text" class="form-control" id="name" placeholder="book title">
                 </div>
-                <div class="form-group row">
-                    <label for="email" class="col-sm-2 col-form-label">Email</label>
-                    <div class="col-sm-10">
-                        <input type="text" readonly class="form-control-plaintext" id="email" value="hatta.eka.p@gmail.com">
-                    </div>
+                <div class="form-group">
+                    <label for="date">Publish Date</label>
+                    <input type="date" class="form-control" id="date" placeholder="Date now">
                 </div>
-                <div class="form-group row">
-                    <label for="content" class="col-sm-2 col-form-label">Content</label>
-                    <div class="col-sm-10">
-                        <textarea name="content" id="content" rows="10" class="form-control"></textarea>
-                    </div>
+                <div class="form-group">
+                    <label for="stock">Stock</label>
+                    <input type="text" class="form-control" id="stock" placeholder="book title">
                 </div>
-                <div class="form-group row">
-                    <button type="submit" class="btn btn-info btn-lg px-5 ml-auto mr-3">Save</button>
+                <div class="form-group">
+                    <label for="price">Price</label>
+                    <input type="text" class="form-control" id="price" placeholder="price">
                 </div>
+                <div class="form-group">
+                    <label for="description">Description</label>
+                    <textarea name="description" id="description" rows="10" class="form-control"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary px-5 mt-3 mb-5">Submit</button>
             </form>
         </div>
 
@@ -84,4 +83,4 @@
     <script src="<?php echo base_url(); ?>assets/js/bootstrap.min.js"></script>
 
 </body>
-</html>jika di klik makan akan menuju halaman utama (antarmuka 1)
+</html>

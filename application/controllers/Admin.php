@@ -18,4 +18,12 @@ class Admin extends CI_Controller{
         $this->load->view('admin/editor');
     }
 
+    function product(){
+        $this->load->view('admin/product');
+    }
+
+    function insert_book(){
+        $this->load->view('admin/insert_book');
+    }
+
 }
