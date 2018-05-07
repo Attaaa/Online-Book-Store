@@ -10,4 +10,12 @@ class Admin extends CI_Controller{
         $this->load->view('admin/panel');
     }
 
+    function writer(){
+        $this->load->view('admin/writer');
+    }
+
+    function editor(){
+        
+    }
+
 }

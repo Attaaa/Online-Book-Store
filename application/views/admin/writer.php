@@ -46,72 +46,40 @@
             </ul>
         </div>
 
-
         <!-- main view -->
-        <div class="col pt-5">    
-
-            <!-- top headlight -->
-            <div class="row px-2">
-
-                <div class="col pr-2 text-white">
-                    <div class="view bg-primary p-4 text-center">
-                        <p class="mb-0">Today</p>
-                        <h5>Book Published</h5>
-                        <h2 class="mt-3">594</h2>
+        <div class="col pt-5 px-5">
+            <h1 class="mb-5 text-center">Writers Panel</h1>
+            <h5 class="mb-4 pl-5">Upload</h5>
+            <form action="" class="px-5">
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email address</label>
+                    <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">
+                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                </div>
+                <div class="form-group">
+                    <label for="date">Date</label>
+                    <input type="date" class="form-control" id="date" placeholder="Date now">
+                </div>
+                <label for="file">File</label>
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">Upload</span>
+                    </div>
+                    <div class="custom-file">
+                        <input type="file" class="custom-file-input" id="file">
+                        <label class="custom-file-label" for="file">Choose file</label>
                     </div>
                 </div>
-
-                <div class="col px-2 text-white">
-                    <div class="view bg-danger p-4 text-center">
-                        <p class="mb-0">Today</p>
-                        <h5>Expenses</h5>
-                        <h2 class="mt-3">$ 1200</h2>
-                    </div>
-                </div>
-
-                <div class="col pl-2 text-white">
-                    <div class="view bg-success p-4 text-center">
-                        <p class="mb-0">Today</p>
-                        <h5>Revenues</h5>
-                        <h2 class="mt-3">$ 5910</h2>
-                    </div>
-                </div>
-                
-            </div>
-
-            <!-- table history -->
-            <div class="row px-4 mt-5">
-
-                <h4 class="mb-3">History</h4>
-                <table class="table text-center">
-                    <thead class="thead-light">
-                        <tr>
-                            <th scope="col">Username</th>
-                            <th scope="col">Book</th>
-                            <th scope="col">Amount</th>
-                            <th scope="col">Revenues</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-
-                        <?php for ($i = 0; $i < 5; $i++) { ?>
-
-                        <tr>
-                            <th scope="row">Hatta</th>
-                            <td>Just Do It!</td>
-                            <td>500</td>
-                            <td>$ 2500</td>
-                        </tr>
-
-                        <?php } ?>
-
-                    </tbody>
-                </table>
-            </div>
-
+                <button type="submit" class="btn btn-primary px-5 mt-3">Upload</button>
+            </form>
         </div>
 
     </div>
+
 
     <!-- load JS-->
     <script src="<?php echo base_url(); ?>assets/js/jquery-3.3.1.min.js"></script>
